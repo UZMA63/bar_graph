@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container h2{
+    font-size: 12px;
+    color: blue;
+    font-family: sans-serif;
+    padding-left: 15px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  .container1 #outer{
+    padding-left: 40px;
+    padding-top: 1px;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  #outer a {
+    text-decoration: none;
+    color: black;
+  }
+  #outer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .container1 h3{
+    margin-left: 45px;
+    font-family: sans-serif;
+    color: rgb(63, 63, 63);
+
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .container1 h3 a{
+    text-decoration: none;
+    color: black;
+  }
+  #outer #plane{
+    color: rgb(207, 207, 207);
+    padding: 10px;
+    cursor: pointer;
+  }
+  #outer li{
+    margin-left: 5px;
+    line-height: 18px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: rgb(155, 154, 154);
+    /* border-left: 3px solid rgb(221, 246, 250); */
+    /* padding-left: 40px; */
+    font-weight: 700;
+    cursor: pointer;
+  }
+ #inner {
+    display: none;
+ }
+ #outer 
+  #outer{
+    display: none;
+  }
+  .container1 h3:hover + #outer
+  {
+     display: block;
+  }
+  #outer li a{
+    color: rgb(155, 154, 154);
+  }
+  #inner li{
+    list-style-type: none;
+    cursor: pointer;
+  }
+  #h3{
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  #h3 a{
+    text-decoration: none;
+    color:rgb(51, 51, 51) ;
+  }
+  #h3 a:hover{
+    text-decoration: underline;
+    color:rgb(51, 51, 51) ;
+  }
+  #h3 #page {
+    padding-right: 10px;
+    color: rgb(207, 207, 207);
+    line-height: 20px;
+    font-size: 14px;
+  }
+  #h3 #net {
+    padding-right: 10px;
+    color: rgb(207, 207, 207);
+    margin-left: -2px;
+    font-size: 14px;
+  }
+  .heading2 h2{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    cursor: pointer;
+  }
+  .heading3 h2{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    cursor: pointer;
+  }
+  #h3{
+    color:rgb(65, 63, 63);
+  }
+  .container2{
+    background-color: rgb(241, 241, 251);
+  }
+  .flex{
+    display: flex;
+  }
+  .flex1{
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 730px;
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  .flex1 #pag1{
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 3px;
+  }
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="container1">
+          <h2>MENU</h2>
+          <h3><a href=""><i id="plane" class="fa-solid fa-plane-up"></i>Dashboard</a></h3>
+          <ul id="outer">
+
+            <li><a href=""> Analytics</a></li>
+            <li><a href=""> Commerce</a></li>
+            <li><a href=""> Sales</a></li>
+            <li>
+             <a href=""> Minimal</a>
+              <ul id="inner">
+                <li><a href=""> Variation1 </a></li>
+                <li><a href=""> Variation2</a></li>
+              </ul>
+            </li>
+            <li><a href="">CRM</a></li>
+          </ul>
+          <h3 id="h3"><a href=""><i id="page" class="fa-solid fa-file-lines"></i>Pages</a></h3>
+          <h3 id="h3"><a href="">
+            <i id="net" class="fa-solid fa-network-wired"></i>Applications</a>
+          </h3>
+          <div class="heading2">
+            <h2>UI COMPONENTS</h2>
+            <h3 id="h3"><i id="page" class="fa-regular fa-gem"></i>Elements</h3>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-truck-front"></i>Components
+            </h3>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-table-cells"></i>Tables
+            </h3>
+          </div>
+  
+          <div class="heading3">
+            <h2>DASHBOARD WIDGETS</h2>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-chart-pie"></i>Chart Boxes 1
+            </h3>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-diagram-next"></i>Chart Boxes 2
+            </h3>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-chart-pie"></i>Chart Boxes 3
+            </h3>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-chart-bar"></i>Chart Boxes 4
+            </h3>
+          </div>
+  
+          <div class="heading3">
+            <h2>FORMS</h2>
+            <h3 id="h3">
+              <i id="net" class="fa-regular fa-lightbulb"></i>Elements
+            </h3>
+            <h3 id="h3"><i id="net" class="fa-solid fa-sliders"></i>Widgets</h3>
+          </div>
+          <div class="heading3">
+            <h2>CHATS</h2>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-chart-line"></i>ChartJS
+            </h3>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-chart-pie"></i>Apex Charts
+            </h3>
+            <h3 id="h3">
+              <i id="net" class="fa-solid fa-square-poll-vertical"></i>Chart
+              Sparklines
+            </h3>
+          </div>
+        </div>
+</body>
+</html>
