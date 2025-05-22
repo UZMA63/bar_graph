@@ -1,1 +1,3 @@
 # bar_graph
+In this project i learn how to make a bar graph using Java script...
+![Screenshot (999)](https://github.com/user-attachments/assets/8b53ba51-4455-412d-b444-9b56e781cae6)
